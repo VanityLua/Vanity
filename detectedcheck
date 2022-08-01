@@ -1,6 +1,7 @@
+local isdetected = never
 game.StarterGui:SetCore("SendNotification", {
     Title = "Vanity",
-    Text = "Detected = Never",
-    Duration = 10
+    Text = "Detected = " ..tostring(isdetected),
+    Duration = 5
     
 })
