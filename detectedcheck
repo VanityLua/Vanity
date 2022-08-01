@@ -1,6 +1,6 @@
 game.StarterGui:SetCore("SendNotification", {
     Title = "Vanity",
-    Text = "Detected = never ",
+    Text = "Detected: never",
     Duration = 5
     
 })
