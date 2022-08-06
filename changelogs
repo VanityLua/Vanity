@@ -1,1 +1,8 @@
+local changes = '[+] Added Generic AntiAim \n [+] Added Movement Section \n [+] Added World Visuals'
 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "[+] Changelogs",
+    Text = (changes),
+    Duration = 10
+    
+})
